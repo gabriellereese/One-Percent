@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "one-percent"
+    }
+  },
+  "defaultProject": "one-percent",
+  "cli": {
+    "analytics": "47d5a019-a915-4105-976b-fd35efb5b353"
+  }
 }
