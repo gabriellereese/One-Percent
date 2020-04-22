@@ -5,6 +5,7 @@ import { MatSliderModule } from '@angular/material/slider';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatIconModule } from '@angular/material/icon';
 import { MatMenuModule } from '@angular/material/menu';
+import {MatInputModule} from '@angular/material/input';
 
 
 
@@ -28,15 +29,16 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     DailygoalsComponent
   ],
   imports: [
-    MatSliderModule,
-    MatFormFieldModule,
     BrowserModule,
+    BrowserAnimationsModule,
     AppRoutingModule,
     FormsModule,
     ReactiveFormsModule,
-    BrowserAnimationsModule,
+    MatSliderModule,
+    MatFormFieldModule,
     MatIconModule,
-    MatMenuModule
+    MatMenuModule,
+    MatInputModule
   ],
   providers: [],
   bootstrap: [AppComponent]
