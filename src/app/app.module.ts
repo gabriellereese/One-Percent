@@ -19,6 +19,7 @@ import { SignupComponent } from './signup/signup.component';
 import { GoalsComponent } from './goals/goals.component';
 import { DailygoalsComponent } from './dailygoals/dailygoals.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { QuotesService } from './quotes.service';
 
 @NgModule({
   declarations: [
@@ -41,7 +42,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     MatMenuModule,
     MatInputModule
   ],
-  providers: [],
+  providers: [QuotesService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
