@@ -1,0 +1,57 @@
+#whitebackground {
+    margin: auto;
+    background-color:white;
+    opacity: 60%;  
+ }
+ 
+ .responsivewhite-bckgrnd {
+    width: 50%;
+    height: auto;
+ }
+
+ .email {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width:100%;
+ }
+
+ .password {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width:100%;
+     }
+
+     mat-form-field {
+        margin-left: 60px;
+     }
+
+     .btn {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 20px;
+       width: 50%;
+        margin-bottom: 15px;
+        margin-left: 57px;
+     }
+
+     .or {
+        margin-left: 110px;
+     }
+    
+     .bttn {
+       align-items: center;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       height: 20px;
+      width: 100%;
+       margin-bottom: 15px;
+       margin-left: 68px;
+    margin-top: 20px;
+     }
