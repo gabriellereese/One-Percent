@@ -1,6 +1,6 @@
 <div id="whitebackground" class="responsivewhite-bckgrnd">
 
-<div class="email">
+  <div class="email">
     <mat-form-field appearance="fill">
       <mat-label>Enter your email</mat-label>
       <input matInput placeholder="Email" [formControl]="email" required>
@@ -15,15 +15,16 @@
       </mat-form-field>
     </div>
 
-  <div>
-    <a routerLink="/signin">
-      <button  class="btn" mat-raised-button color="primary">Sign In</button>
-    </a>
-  </div>
-  <span class="or">or</span>
-  <div>
-    <a routerLink="/signup">
-    <button class="bttn" mat-raised-button color="primary">Sign Up</button>
-  </a>
+    <div>
+      <a routerLink="/signin">
+        <button class="btn" mat-raised-button color="primary">Sign In</button>
+      </a>
+    </div>
+    <span class="or">or</span>
+    <div>
+      <a routerLink="/signup">
+        <button class="bttn" mat-raised-button color="primary">Sign Up</button>
+      </a>
+    </div>
   </div>
 </div>

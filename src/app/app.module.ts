@@ -18,6 +18,7 @@ import { GoalsComponent } from './goals/goals.component';
 import { DailygoalsComponent } from './dailygoals/dailygoals.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { QuotesService } from './quotes.service';
+import {MatButtonModule} from '@angular/material/button';
 
 @NgModule({
   declarations: [
@@ -28,18 +29,19 @@ import { QuotesService } from './quotes.service';
     GoalsComponent,
     DailygoalsComponent
   ],
-  imports: [
-    BrowserModule,
-    BrowserAnimationsModule,
-    AppRoutingModule,
-    FormsModule,
-    ReactiveFormsModule,
-    MatSliderModule,
-    MatFormFieldModule,
-    MatIconModule,
-    MatMenuModule,
-    MatInputModule
-  ],
+    imports: [
+        BrowserModule,
+        BrowserAnimationsModule,
+        AppRoutingModule,
+        FormsModule,
+        ReactiveFormsModule,
+        MatSliderModule,
+        MatFormFieldModule,
+        MatIconModule,
+        MatMenuModule,
+        MatInputModule,
+        MatButtonModule
+    ],
   providers: [QuotesService],
   bootstrap: [AppComponent]
 })
