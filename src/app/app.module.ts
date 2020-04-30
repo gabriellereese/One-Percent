@@ -40,7 +40,9 @@ import {MatButtonModule} from '@angular/material/button';
         MatIconModule,
         MatMenuModule,
         MatInputModule,
-        MatButtonModule
+        MatButtonModule,
+        FormsModule
+        
     ],
   providers: [QuotesService],
   bootstrap: [AppComponent]

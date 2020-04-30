@@ -1,16 +1,12 @@
-<div id="whitebackground">
-  <button mat-button [matMenuTriggerFor]="menu">Menu</button>
-  <mat-menu #menu="matMenu">
-    <button mat-menu-item>Item 1</button>
-    <button mat-menu-item>Item 2</button>
-  </mat-menu>
-</div>
+<div id="whitebackground"></div>
+<input [(ngModel)]="name" type="text" />
+<h3>Hello, {{name}}!</h3>
 
 <!-- The <button> element should be used for any interaction that performs an action on the current page.
    The <a> element should be used for any interaction that navigates to another view -->
 <div class="home-button">
   <a>
-  <button mat-fab color="warn" aria-label="home icon button">
+  <button mat-fab color="primary" aria-label="home icon button">
     <mat-icon>home</mat-icon>
   </button>
 </a>

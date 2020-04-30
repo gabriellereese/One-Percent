@@ -9,6 +9,7 @@ import { QuotesService } from '../quotes.service';
 export class ProfileComponent implements OnInit {
 
   public quotes;
+  name = "";
 
   constructor(private _quoteservice: QuotesService) {
    }
